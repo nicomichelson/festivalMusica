@@ -48,4 +48,4 @@ function dev(done){
 exports.css = css;
 exports.imagenes = imagenes;
 exports.versionWebp = versionWebp;
-exports.dev = parallel(versionWebp,dev);
+exports.dev = parallel(imagenes,dev);
